@@ -84,13 +84,6 @@ const NeuralBackground = () => {
         <pointLight position={[10, 10, 10]} />
         <NeuralNetwork />
         <FloatingOrbs />
-        <OrbitControls
-          enableZoom={false}
-          enablePan={false}
-          enableRotate={false}
-          autoRotate
-          autoRotateSpeed={0.5}
-        />
       </Canvas>
       
       {/* Overlay gradient */}
